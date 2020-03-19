@@ -15,5 +15,13 @@
  */
 /**
  * @author Eddú Meléndez
+ *
+ * 通过Spring boot SPI 自动加载(resources/META-INF/spring.factories)
+ * XXXAutoConfiguration被有条件的激活，开始了一些相关Bean的注册
+ *
+ *
+ *
+ * resources/META-INF/additional-spring-configuration-metadata.json
+ * IDEA会根据这个文件给予开发者提示，eg. 配置application.yml/application.properties会用到
  */
 package org.mybatis.spring.boot.autoconfigure;
